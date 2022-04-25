@@ -27,9 +27,9 @@ test(`[data grid] api should redirect correctly`, async ({ page }) => {
 });
 
 test(`[date pickers] overview should redirect correctly`, async ({ page }) => {
-  await page.goto(`/components/date-pickers/`);
+  await page.goto(`/components/date-picker/`);
 
-  await expect(page).toHaveURL(`/x/react-date-pickers/getting-started/`);
+  await expect(page).toHaveURL(`/x/react-date-pickers/date-picker/`);
 });
 
 test(`[date pickers] api should redirect correctly`, async ({ page }) => {
