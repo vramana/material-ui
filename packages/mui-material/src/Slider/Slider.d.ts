@@ -64,14 +64,14 @@ type SliderThumbProps = NonNullable<SliderTypeMap['props']['componentsProps']>['
 type SliderValueLabelProps = NonNullable<SliderTypeMap['props']['componentsProps']>['valueLabel'];
 type SliderInputProps = NonNullable<SliderTypeMap['props']['componentsProps']>['input'];
 
-export const SliderRoot: React.FC<SliderRootProps>;
-export const SliderMark: React.FC<SliderMarkProps>;
-export const SliderMarkLabel: React.FC<SliderMarkLabelProps>;
-export const SliderRail: React.FC<SliderRailProps>;
-export const SliderTrack: React.FC<SliderTrackProps>;
-export const SliderThumb: React.FC<SliderThumbProps>;
-export const SliderValueLabel: React.FC<SliderValueLabelProps>;
-export const SliderInput: React.FC<SliderInputProps>;
+export declare const SliderRoot: React.FC<SliderRootProps>;
+export declare const SliderMark: React.FC<SliderMarkProps>;
+export declare const SliderMarkLabel: React.FC<SliderMarkLabelProps>;
+export declare const SliderRail: React.FC<SliderRailProps>;
+export declare const SliderTrack: React.FC<SliderTrackProps>;
+export declare const SliderThumb: React.FC<SliderThumbProps>;
+export declare const SliderValueLabel: React.FC<SliderValueLabelProps>;
+export declare const SliderInput: React.FC<SliderInputProps>;
 
 /**
  *
@@ -95,6 +95,6 @@ export type SliderProps<
 
 export type SliderClasses = Record<SliderClassKey, string>;
 
-export const sliderClasses: SliderClasses;
+export declare const sliderClasses: SliderClasses;
 
 export default Slider;
