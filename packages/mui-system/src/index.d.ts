@@ -148,7 +148,7 @@ export { SpacingOptions, Spacing } from './createTheme/createSpacing';
 export { default as shape } from './createTheme/shape';
 export * from './createTheme/shape';
 
-export { default as useThemeProps, getThemeProps } from './useThemeProps';
+export { default as useThemeProps, getThemeProps, ThemeWithProps } from './useThemeProps';
 
 export { default as useTheme } from './useTheme';
 export * from './useTheme';

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { getThemeProps, useThemeWithoutDefault as useTheme } from '@mui/system';
+import { getThemeProps, useThemeWithoutDefault as useTheme, ThemeWithProps } from '@mui/system';
 import useEnhancedEffect from '../utils/useEnhancedEffect';
 
 /**
@@ -126,7 +126,7 @@ function useMediaQueryNew(
   return match;
 }
 
-export default function useMediaQuery<Theme = unknown>(
+export default function useMediaQuery<Theme extends ThemeWithProps<any>>(
   queryInput: string | ((theme: Theme) => string),
   options: Options = {},
 ): boolean {

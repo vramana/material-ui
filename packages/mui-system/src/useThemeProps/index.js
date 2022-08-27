@@ -1,2 +1,2 @@
 export { default } from './useThemeProps';
-export { default as getThemeProps } from './getThemeProps';
+export { default as getThemeProps, ThemeWithProps } from './getThemeProps';
